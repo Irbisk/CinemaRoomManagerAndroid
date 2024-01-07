@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cinema Room Manager</string>
+    <string name="screen">Screen</string>
+    <string name="your_ticket_price_is">Your ticket price is %.2f$</string>
+    <string name="buy_a_ticket">BUY A TICKET</string>
+    <string name="current_cinema_income">Current cinema income: %.2f$</string>
+    <string name="available_seats">Available seats: %s</string>
+    <string name="occupied_seats">Occupied seats: %s</string>
+    <string name="cancel_purchase">CANCEL PURCHASE</string>
+    <string name="estimated_ticket_price">Estimated ticket price: %.2f$</string>
+    <string name="total_cinema_income">Total cinema income: %.2f$</string>
+
+</resources>

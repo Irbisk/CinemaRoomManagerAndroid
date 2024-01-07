@@ -1,0 +1,19 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>Good job! Your friends really liked your app! Now they want to expand their app by adding a new wholesome feature, called <strong>profit</strong>. This feature depends on the movie duration, ratings, and available seats in the cinema room. It defines the best cinema session. Help them calculate profit from the current session, and, maybe, let them raise the ticket cost for popular movies.</p>
+<h5 id="objectives">Objectives</h5>
+<p>In this stage, you need to read two positive numbers from the activity intent property: movie duration in minutes (under the <code class="java">DURATION</code> string key) and the movie rating from 0 until 5 (under the <code class="java">RATING</code> string key). The ticket price is determined by the following rules:</p>
+<ul>
+<li>Let's assume that the best movie duration is 90 minutes. So, take the following formula for predicting profit: <span class="math-tex">\[y = -{1 \over 90} x^2 +2x + 90\]</span>where <span class="math-tex">\(x\)</span> is movie duration in minutes, and <span class="math-tex">\(y\)</span> is <code class="java">movie_duration_profit</code>;</li>
+<li>The base formula for the ticket price is (<em>rating </em><em>* movie_duration_profit) / available_seats</em>;</li>
+<li>If the rating isn't in the intent, consider it 4.5f;</li>
+<li>If the movie duration isn't in the intent, consider it 108;</li>
+<li>The calculation result should be as follows: <code class="java">Estimated ticket price: your-value-here$</code> and put in <code class="java">TextView</code> with <code class="java">cinema_room_ticket_price</code> id.</li>
+<li>The calculation result should be as follows: <code class="java">Estimated ticket price: your-value-here$</code> and put in <code class="java">TextView</code> with <code class="java">cinema_room_ticket_price</code> id.</li>
+</ul>
+<p> </p>
+<h5 id="example">Example</h5>
+<p><strong>Example 1:</strong> <em>an example of your application</em></p>
+<p><strong>Tip:</strong> The screenshot has been taken in the dark mode. If you prefer a light system mode, your application can<em> </em>use another color scheme.</p>
+<p><picture><source media="(max-width: 480px)" srcset="https://ucarecdn.com/be37d8ea-6810-44fa-9db3-2381117a3b3f/-/stretch/off/-/resize/480x/-/format/webp/ 1x,https://ucarecdn.com/be37d8ea-6810-44fa-9db3-2381117a3b3f/-/stretch/off/-/resize/960x/-/format/webp/ 2x,https://ucarecdn.com/be37d8ea-6810-44fa-9db3-2381117a3b3f/-/stretch/off/-/resize/1440x/-/format/webp/ 3x" type="image/webp"/><source media="(max-width: 800px)" srcset="https://ucarecdn.com/be37d8ea-6810-44fa-9db3-2381117a3b3f/-/stretch/off/-/resize/800x/-/format/webp/ 1x,https://ucarecdn.com/be37d8ea-6810-44fa-9db3-2381117a3b3f/-/stretch/off/-/resize/1600x/-/format/webp/ 2x,https://ucarecdn.com/be37d8ea-6810-44fa-9db3-2381117a3b3f/-/stretch/off/-/resize/2400x/-/format/webp/ 3x" type="image/webp"/><source srcset="https://ucarecdn.com/be37d8ea-6810-44fa-9db3-2381117a3b3f/-/stretch/off/-/resize/1100x/-/format/webp/ 1x,https://ucarecdn.com/be37d8ea-6810-44fa-9db3-2381117a3b3f/-/stretch/off/-/resize/2200x/-/format/webp/ 2x,https://ucarecdn.com/be37d8ea-6810-44fa-9db3-2381117a3b3f/-/stretch/off/-/resize/3000x/-/format/webp/ 3x" type="image/webp"/><img alt="Display the price of a seat when you select it in the cinema" height="578" src="https://ucarecdn.com/be37d8ea-6810-44fa-9db3-2381117a3b3f/" width="274"/></picture></p>
+</div>

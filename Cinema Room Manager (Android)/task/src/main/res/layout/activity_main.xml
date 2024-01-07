@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/cinema_room_screen_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:text="@string/screen"
+        />
+
+    <GridLayout
+        android:id="@+id/cinema_room_places"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:columnCount="8"
+        android:orientation="horizontal"
+        android:layout_weight=".8">
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/cinema_room_ticket_price"
+        style="@style/textStyle" />
+
+    <TextView
+        android:id="@+id/cinema_room_total_income"
+        style="@style/textStyle" />
+
+    <TextView
+        android:id="@+id/cinema_room_current_income"
+        style="@style/textStyle" />
+
+    <TextView
+        android:id="@+id/cinema_room_available_seats"
+        style="@style/textStyle"
+        />
+    <TextView
+        android:id="@+id/cinema_room_occupied_seats"
+        style="@style/textStyle" />
+
+</LinearLayout>

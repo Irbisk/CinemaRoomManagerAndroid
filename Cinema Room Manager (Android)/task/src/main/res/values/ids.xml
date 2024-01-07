@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cinema_room_place_item_text" type="id" />
+    <item name="cinema_room_place_indicator" type="id" />
+</resources>

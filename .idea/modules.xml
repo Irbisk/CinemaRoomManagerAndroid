@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cinema_Room_Manager_(Android).iml" filepath="$PROJECT_DIR$/.idea/modules/Cinema_Room_Manager_(Android).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cinema Room Manager (Android)/task/Cinema_Room_Manager_(Android).Cinema_Room_Manager__Android_-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Cinema Room Manager (Android)/task/Cinema_Room_Manager_(Android).Cinema_Room_Manager__Android_-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cinema Room Manager (Android)/task/Cinema_Room_Manager_(Android).Cinema_Room_Manager__Android_-task.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Cinema Room Manager (Android)/task/Cinema_Room_Manager_(Android).Cinema_Room_Manager__Android_-task.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cinema Room Manager (Android)/task/Cinema_Room_Manager_(Android).Cinema_Room_Manager__Android_-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Cinema Room Manager (Android)/task/Cinema_Room_Manager_(Android).Cinema_Room_Manager__Android_-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cinema Room Manager (Android)/task/Cinema_Room_Manager_(Android).Cinema_Room_Manager__Android_-task.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Cinema Room Manager (Android)/task/Cinema_Room_Manager_(Android).Cinema_Room_Manager__Android_-task.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Cinema_Room_Manager_(Android).util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Cinema_Room_Manager_(Android).util.iml" />
+    </modules>
+  </component>
+</project>
